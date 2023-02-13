@@ -15,7 +15,7 @@ export const Gallery = () => {
                 <div className="bg-black">
                   <img
                     alt="gallery"
-                    className="block  object-center md:w-[642px] md:h-[316px] opacity-80"
+                    className="block object-cover object-center h-[316px] md:w-[642px] md:h-[316px] opacity-80"
                     src={juice}
                   />
                 </div>
@@ -27,7 +27,7 @@ export const Gallery = () => {
                     This smoothie totally changed my world. Our juices are made
                     from the freshest fruits and natural ingredients.{" "}
                   </p>
-                  <button className="w-52 h-12 btn bg-white text-black">
+                  <button className="w-52 h-12 btn bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
                     Shop Now
                   </button>
                 </div>
@@ -47,7 +47,7 @@ export const Gallery = () => {
                   <p className="font-nunitoSans font-medium text-base text-white mb-4">
                     Very good for a Saturday morning breakfast!
                   </p>
-                  <button className="w-52 h-12 btn bg-white text-black">
+                  <button className="w-52 h-12 btn bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
                     Shop Now
                   </button>
                 </div>
@@ -68,7 +68,7 @@ export const Gallery = () => {
                     Weirdly really good. These flavors work really well
                     together.
                   </p>
-                  <button className="w-52 h-12 btn bg-white text-black">
+                  <button className="w-52 h-12 btn bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
                     Shop Now
                   </button>
                 </div>
@@ -93,7 +93,7 @@ export const Gallery = () => {
                     here, which means we're harvesting fresh fruits and veggies
                     for our seasonal favorites!
                   </p>
-                  <button className="w-52 h-12 btn bg-white text-black">
+                  <button className="w-52 h-12 btn bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
                     Shop Now
                   </button>
                 </div>

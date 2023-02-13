@@ -2,6 +2,7 @@ import React from "react";
 import "tw-elements";
 import banner1 from "../../images/BottledJuices_Lead.jpg";
 import banner2 from "../../images/juice.jpg";
+import banner3 from "../../images/Capture2.PNG";
 import CardCarousel from "../Home/CardCarousel";
 import { Gallery } from "./Gallery";
 
@@ -52,35 +53,10 @@ export const Home = () => {
               <p className="font-nunitoSans font-semibold text-lg mb-6">
                 The quickest, easiest way to get in your fruits and veggies
               </p>
-              <button className="bg-white h-12 w-52 text-black font-nunitoSans font-semibold text-sm">
+              <button className="w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
                 Learn More
               </button>
-              <button className="bg-black h-12 w-52 text-white font-nunitoSans font-semibold text-sm ml-5">
-                Learn More
-              </button>
-            </div>
-          </div>
-
-          <div className="carousel-item relative float-left w-full">
-            <img
-              src={banner2}
-              className="block w-full md:h-[720px] sm:h-4/5 h-2/4"
-              alt="..."
-            />
-            <div className="carousel-caption hidden md:block absolute left-[70px] bottom-16">
-              <p className="font-nunitoSans font-bold text-base mb-2">
-                ORGINAL SMOOTHIES
-              </p>
-              <h5 className="text-[57px] font-muli font-bold leading-normal mb-4">
-                Make the Most of Morning{" "}
-              </h5>
-              <p className="font-nunitoSans font-semibold text-lg mb-6">
-                The quickest, easiest way to get in your fruits and veggies
-              </p>
-              <button className="bg-white h-12 w-52 text-black font-nunitoSans font-semibold text-sm">
-                Learn More
-              </button>
-              <button className="bg-black h-12 w-52 text-white font-nunitoSans font-semibold text-sm ml-5">
+              <button className="bg-black h-12 w-52 text-white  transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm  transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-500 before:content-[''] hover:text-black before:hover:scale-x-100 ml-5">
                 Learn More
               </button>
             </div>
@@ -102,10 +78,35 @@ export const Home = () => {
               <p className="font-nunitoSans font-semibold text-lg mb-6">
                 The quickest, easiest way to get in your fruits and veggies
               </p>
-              <button className="bg-white h-12 w-52 text-black font-nunitoSans font-semibold text-sm">
+              <button className="w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
                 Learn More
               </button>
-              <button className="bg-black h-12 w-52 text-white font-nunitoSans font-semibold text-sm ml-5">
+              <button className="bg-black h-12 w-52 text-white  transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm  transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-500 before:content-[''] hover:text-black before:hover:scale-x-100 ml-5">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          <div className="carousel-item relative float-left w-full">
+            <img
+              src={banner3}
+              className="block w-full md:h-[720px] sm:h-4/5 h-full"
+              alt="..."
+            />
+            <div className="carousel-caption hidden md:block absolute left-[70px] bottom-16">
+              <p className="font-nunitoSans font-bold text-base mb-2">
+                ORGINAL SMOOTHIES
+              </p>
+              <h5 className="text-[57px] font-muli font-bold leading-normal mb-4">
+                Make the Most of Morning{" "}
+              </h5>
+              <p className="font-nunitoSans font-semibold text-lg mb-6">
+                The quickest, easiest way to get in your fruits and veggies
+              </p>
+              <button className="w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
+                Learn More
+              </button>
+              <button className="bg-black h-12 w-52 text-white  transform motion-safe:hover:scale-105   font-semibold font-nunitoSans text-sm  transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-white before:transition-transform before:duration-500 before:content-[''] hover:text-black before:hover:scale-x-100 ml-5">
                 Learn More
               </button>
             </div>

@@ -33,12 +33,21 @@ const CardCarousel = () => {
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
                     <Slide index={0}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+
+                        <div class="absolute inline-flex items-center justify-center w-12 h-12 text-xs font-normal text-white bg-[#313131] rounded-full top-4 left-4 dark:border-gray-900">
+                          SALE
+                        </div>
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -48,12 +57,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={1}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative sm:w-auto mb-6 group">
                         <img
                           src={orange}
                           alt="sitting area"
-                          className="object-cover object-center w-[313px] h-[416px]"
+                          className="object-cover object-center w-[313px] h-[416px] "
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -63,12 +77,20 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={2}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div class="absolute inline-flex items-center text-center justify-center w-12 h-12 text-xs font-normal text-white bg-[#313131] rounded-full top-4 left-4 dark:border-gray-900">
+                          SOLD OUT
+                        </div>
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -78,12 +100,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={3}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -93,12 +120,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={4}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -108,12 +140,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={5}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -152,8 +189,8 @@ const CardCarousel = () => {
             className="lg:hidden md:block hidden"
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={6}
-            visibleSlides={3}
+            totalSlides={5}
+            visibleSlides={2}
             step={1}
             infinite={true}
           >
@@ -187,12 +224,20 @@ const CardCarousel = () => {
                     className="h-full flex lg:gap-8 md:gap-6 gap-14 items-center justify-start transition ease-out duration-700"
                   >
                     <Slide index={0}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div class="absolute inline-flex items-center justify-center w-12 h-12 text-xs font-normal text-white bg-[#313131] rounded-full top-4 left-4 dark:border-gray-900">
+                          SALE
+                        </div>
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -202,12 +247,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={1}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -217,12 +267,20 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={2}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div class="absolute inline-flex items-center text-center justify-center w-12 h-12 text-xs font-normal text-white bg-[#313131] rounded-full top-4 left-4 dark:border-gray-900">
+                          SOLD OUT
+                        </div>
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -232,12 +290,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={3}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative group sm:w-auto mb-6">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -247,27 +310,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={4}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative group sm:w-auto mb-6">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
-                      </div>
-                      <div className="text-center font-nunitoSans">
-                        <h1 className="mb-2 text-base font-semibold">
-                          Ginger Grapefruit
-                        </h1>
-                        <p className="text-sm font-normal">$4.00 USD</p>
-                      </div>
-                    </Slide>
-                    <Slide index={5}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
-                        <img
-                          src={juice}
-                          alt="sitting area"
-                          className="object-cover object-center w-[313px] h-[416px]"
-                        />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -309,7 +362,7 @@ const CardCarousel = () => {
             className="block md:hidden "
             naturalSlideWidth={100}
             isIntrinsicHeight={true}
-            totalSlides={6}
+            totalSlides={5}
             visibleSlides={1}
             step={1}
             infinite={true}
@@ -344,12 +397,20 @@ const CardCarousel = () => {
                     className="h-full w-full flex lg:gap-8 md:gap-6 items-center justify-start transition ease-out duration-700"
                   >
                     <Slide index={0}>
-                      <div className="flex flex-shrink-0 justify-center sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[300px] h-[416px]"
                         />
+                        <div class="absolute inline-flex items-center justify-center w-12 h-12 text-xs font-normal text-white bg-[#313131] rounded-full top-4 left-12 dark:border-gray-900">
+                          SALE
+                        </div>
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-16">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -359,12 +420,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={1}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-16">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -374,12 +440,20 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={2}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div class="absolute inline-flex items-center text-center justify-center w-12 h-12 text-xs font-normal text-white bg-[#313131] rounded-full top-4 left-12 dark:border-gray-900">
+                          SOLD OUT
+                        </div>
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-16">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -389,12 +463,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={3}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-16">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -404,27 +483,17 @@ const CardCarousel = () => {
                       </div>
                     </Slide>
                     <Slide index={4}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
+                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6 group">
                         <img
                           src={juice}
                           alt="sitting area"
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
-                      </div>
-                      <div className="text-center font-nunitoSans">
-                        <h1 className="mb-2 text-base font-semibold">
-                          Ginger Grapefruit
-                        </h1>
-                        <p className="text-sm font-normal">$4.00 USD</p>
-                      </div>
-                    </Slide>
-                    <Slide index={5}>
-                      <div className="flex flex-shrink-0 justify-center relative  sm:w-auto mb-6">
-                        <img
-                          src={juice}
-                          alt="sitting area"
-                          className="object-cover object-center w-[313px] h-[416px]"
-                        />
+                        <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-16">
+                            Quick View
+                          </button>
+                        </div>
                       </div>
                       <div className="text-center font-nunitoSans">
                         <h1 className="mb-2 text-base font-semibold">
@@ -464,7 +533,7 @@ const CardCarousel = () => {
       </div>
 
       <div className="text-center mb-16">
-        <button className="btn bg-white text-black border border-black py-4 px-[74px]">
+        <button className="bg-white text-black py-4 px-[74px] transform motion-safe:hover:scale-105  border border-1 border-black font-normal font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100">
           View All
         </button>
       </div>

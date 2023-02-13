@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -55,19 +56,19 @@ const Header = () => {
               </svg>
             </button>
 
-            <div className="hidden lg:flex lg:items-center lg:space-x-10 font-nunito">
-              <a
-                href="/"
-                className="font-normal text-[#313131] text-[15px] transition-all duration-200 "
+            <div className="hidden lg:flex lg:items-center lg:space-x-6 font-nunito">
+              <Link
+                to="/home"
+                className="font-normal text-[#313131] text-[15px] transition-all duration-500 p-4 hover:bg-gray-100 hover:rounded-lg focus:bg-gray-100 focus:rounded-lg"
               >
                 Home
-              </a>
+              </Link>
 
               <button
                 onClick={() => setDropdown(!dropdown)}
                 id="dropdownDefaultButton"
                 data-dropdown-toggle="dropdown"
-                className="text-center inline-flex items-center font-normal text-[#313131] text-[15px] font-nunito"
+                className="text-center inline-flex items-center font-normal text-[#313131] text-[15px] font-nunito duration-500 p-4 hover:bg-gray-100 hover:rounded-lg focus:bg-gray-100 focus:rounded-lg"
                 type="button"
               >
                 Shop
@@ -107,36 +108,38 @@ const Header = () => {
                 </div>
               </button>
 
-              <a
-                href="/"
-                className="font-normal text-[#313131] text-[15px] transition-all duration-200 "
+              <Link
+                to="/home"
+                className="font-normal text-[#313131] text-[15px] transition-all duration-500 p-4 hover:bg-gray-100 hover:rounded-lg focus:bg-gray-100 focus:rounded-lg"
               >
                 About
-              </a>
+              </Link>
 
-              <a
-                href="/"
-                className="font-normal text-[#313131] text-[15px] transition-all duration-200 "
+              <Link
+                to="/"
+                className="font-normal text-[#313131] text-[15px] transition-all duration-500 p-4 hover:bg-gray-100 hover:rounded-lg focus:bg-gray-100 focus:rounded-lg"
               >
                 Blog
-              </a>
+              </Link>
             </div>
 
-            <div className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold  transition-all duration-200 lg:inline-flex space-x-[17px]">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke-width="1.5"
-                stroke="currentColor"
-                className="w-6 h-6"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
-                />
-              </svg>
+            <div className="items-center justify-center hidden px-4 py-3 ml-10 text-base font-semibold  transition-all duration-200 lg:inline-flex space-x-[17px] z-50">
+              <Link to="/user">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  className="w-6 h-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z"
+                  />
+                </svg>
+              </Link>
 
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -178,12 +181,12 @@ const Header = () => {
           >
             <div className="flow-root">
               <div className="flex flex-col px-6 -my-2 space-y-1 font-nunito">
-                <a
-                  href="/"
+                <Link
+                  to="/home"
                   className="inline-flex py-2 text-base font-medium text-[#313131] text-[15px] transition-all duration-200 "
                 >
                   Home
-                </a>
+                </Link>
 
                 <a
                   href="/"
