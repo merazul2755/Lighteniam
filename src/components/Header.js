@@ -6,7 +6,7 @@ const Header = () => {
   const [menu, setMenu] = useState(false);
   return (
     <>
-      <header className="lg:px-[70px] lg:py-10 py-4 px-5 bg-white">
+      <header className="lg:px-[70px] lg:py-5 py-4 px-5 bg-white lg:h-[120px]">
         <div className=" mx-auto max-w-[1440px] ">
           {/* <!-- lg+ --> */}
           <nav className="flex items-center justify-between h-16 lg:h-20">
