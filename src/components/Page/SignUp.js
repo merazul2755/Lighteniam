@@ -43,7 +43,7 @@ const SignUp = () => {
     }
   };
   return (
-    <div className="max-w-[1440px] m-auto mb-48 mt-28 px-5 md:px-0">
+    <div className="max-w-[1440px] m-auto xl:mb-48 md:mb-36 xl:mt-28 md:mt-20 px-5 md:px-0">
       <div className="max-w-2xl text-black bg-white m-auto w-full">
         <div className="text-[40px] font-normal mb-10 ">
           Register Your Account

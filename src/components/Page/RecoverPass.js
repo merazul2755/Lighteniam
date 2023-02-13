@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const RecoverPass = () => {
   return (
-    <div className="max-w-[1440px] m-auto mb-48 mt-32 px-5 md:px-0">
-      <div className="max-w-xl bg-white m-auto w-full px-16">
+    <div className="max-w-[1440px] m-auto xl:mb-48 mb-36 mt-16 md:mb-36 xl:mt-28 md:mt-20 px-5 md:px-0">
+      <div className="max-w-xl bg-white m-auto w-full lg:px-16">
         <div className="text-[40px] mb-10 ">Recover Password</div>
 
         <form className="grid grid-cols-1 gap-6 max-w-xl m-auto">

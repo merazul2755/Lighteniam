@@ -26,7 +26,7 @@ export const Login = () => {
     navigate("/home");
   }
   return (
-    <div className="max-w-[1440px] m-auto mb-48 mt-32 px-5 md:px-0">
+    <div className="max-w-[1440px] m-auto xl:mb-48 mb-36 mt-16 md:mb-36 xl:mt-28 md:mt-20 px-5 md:px-0">
       <div className="max-w-2xl text-black bg-white m-auto w-full">
         <div className="text-[40px] mb-10 ">Login</div>
 

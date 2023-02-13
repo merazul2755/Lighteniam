@@ -40,7 +40,7 @@ export const Home = () => {
           <div className="carousel-item active relative float-left w-full bg-black">
             <img
               src={banner1}
-              className="block w-full md:h-[720px] sm:h-4/5 h-2/4 opacity-70"
+              className="block w-full xl:h-[720px] md:h-[560px] sm:h-4/5 h-2/4 opacity-70"
               alt="..."
             />
             <div className="carousel-caption hidden md:block absolute left-[70px] bottom-16">
@@ -65,7 +65,7 @@ export const Home = () => {
           <div className="carousel-item relative float-left w-full">
             <img
               src={banner2}
-              className="block w-full md:h-[720px] sm:h-4/5 h-2/4"
+              className="block w-full  xl:h-[720px] md:h-[560px] sm:h-4/5 h-2/4"
               alt="..."
             />
             <div className="carousel-caption hidden md:block absolute left-[70px] bottom-16">
@@ -90,7 +90,7 @@ export const Home = () => {
           <div className="carousel-item relative float-left w-full">
             <img
               src={banner3}
-              className="block w-full md:h-[720px] sm:h-4/5 h-full"
+              className="block w-full xl:h-[720px] md:h-[560px] sm:h-4/5 h-full"
               alt="..."
             />
             <div className="carousel-caption hidden md:block absolute left-[70px] bottom-16">

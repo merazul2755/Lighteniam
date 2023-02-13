@@ -44,7 +44,7 @@ const CardCarousel = () => {
                           SALE
                         </div>
                         <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
-                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                          <button className="absolute  h-12  bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 xl:left-12 lg:left-4 lg:w-40 xl:w-52">
                             Quick View
                           </button>
                         </div>
@@ -64,7 +64,7 @@ const CardCarousel = () => {
                           className="object-cover object-center w-[313px] h-[416px] "
                         />
                         <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
-                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12 xl:left-12 lg:left-4 lg:w-40 xl:w-52">
                             Quick View
                           </button>
                         </div>
@@ -87,7 +87,7 @@ const CardCarousel = () => {
                           SOLD OUT
                         </div>
                         <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
-                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12 xl:left-12 lg:left-4 lg:w-40 xl:w-52">
                             Quick View
                           </button>
                         </div>
@@ -107,7 +107,7 @@ const CardCarousel = () => {
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
                         <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
-                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12 xl:left-12 lg:left-4 lg:w-40 xl:w-52">
                             Quick View
                           </button>
                         </div>
@@ -127,7 +127,7 @@ const CardCarousel = () => {
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
                         <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
-                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12 xl:left-12 lg:left-4 lg:w-40 xl:w-52">
                             Quick View
                           </button>
                         </div>
@@ -147,7 +147,7 @@ const CardCarousel = () => {
                           className="object-cover object-center w-[313px] h-[416px]"
                         />
                         <div className="absolute h-full w-full  bg-white/20 hidden group-hover:block transition-all duration-300 ease-in-out">
-                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12">
+                          <button className="absolute w-52 h-12 bg-white text-black transform motion-safe:hover:scale-105 font-semibold font-nunitoSans text-sm text-[#000000CC] transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-x-0 before:bg-black before:transition-transform before:duration-500 before:content-[''] hover:text-white before:hover:scale-x-100 top-1/2 left-12 xl:left-12 lg:left-4 lg:w-40 xl:w-52">
                             Quick View
                           </button>
                         </div>

@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <div className="">
         <div className="flex flex-col mx-auto max-w-[1440px] h-auto ">
-          <div className="flex lg:justify-between flex-col lg:flex-row py-10 lg:py-16 px-[15px] sm:px-[30px] md:px-[40px] lg:px-[50px] xl:px-[70px] w-full h-auto lg:h-[371px] bg-[#FAFAFA]">
+          <div className="flex lg:justify-between flex-col lg:flex-row py-10 lg:py-16 px-[15px] sm:px-[30px] md:px-[30px] xl:px-[70px] w-full h-auto lg:h-[371px] bg-[#FAFAFA]">
             <div className="lg:w-4/12 text-black">
               <div className=" mb-6 font-nunitoSans text-base font-semibold ">
                 About your store
