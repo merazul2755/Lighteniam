@@ -12,7 +12,6 @@ export const Login = () => {
   if (error) {
     toast.warning(error?.message);
   } else {
-    toast.success("Log In Successful");
   }
 
   const handleLogin = async (event) => {
@@ -24,6 +23,7 @@ export const Login = () => {
 
   if (user) {
     navigate("/home");
+    toast.success("Log In Successful");
   }
   return (
     <div className="max-w-[1440px] m-auto xl:mb-48 mb-36 mt-16 md:mb-36 xl:mt-28 md:mt-20 px-5 md:px-0">
